@@ -19,6 +19,7 @@ nav .brand-logo{
   font-size: 28px;
   width: 71%;
   margin-left: 25px;
+  z-index: -1;
 }
 .icons{
   margin-left: 47px;
@@ -303,10 +304,13 @@ h5{
 }
 
 @media only screen and (min-width: 768px) {
+  .row .col.m6 {
+    width: 100%;
+  }
   nav .brand-logo {
     line-height: 30px;
     margin-top: 10px;
-    margin-left: 20%;
+    padding-left: 20%;
   }
   a.sidenav-trigger i {
     font-size: 60px;
@@ -368,7 +372,192 @@ small {
   grid-template-columns: 50% auto;
   grid-gap: 25px;
 }
-.row{
-  width: 221%%;
+.food-stamp {
+    height: 205px;
+}
+.jed-whittaker{
+  height: 253px;
+}
+.sex-workers{
+  height: 205px;
+}
+.dark-side{
+  height: 363px;
+}
+.high-rape{
+  height: 338px;
+}
+.lorenzo-wilson{
+  height: 484px;
+}
+.ashland{
+  height: 363px;
+}
+.fbi{
+  height: 297px;
+}
+.diverse{
+  height: 363px;
+}
+.voices{
+  height: 338px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  nav ul a {
+    color: black;
+    font-size: 25px;
+  }
+  nav .brand-logo {
+    padding-left: 37%;
+}
+nav ul {
+  padding-right: 35%;
+  padding-top: 71px;
+}
+nav .brand-logo {
+  padding-left: 29%;
+line-height: 239%;
+font-size: 43px;
+}
+nav {
+  height: 200px;
+}
+.icons{
+  margin-left: 60px;
+}
+.icons {
+    margin-left: 105px;
+    padding-top: 25px;
+}
+.col{
+  margin-top: 20%;
+}
+.kokayi-fist {
+    height: 615px;
+}
+.row .col.m6 {
+    padding: 0 5%;
+}
+.card .card-action {
+    padding: 50px 24px;
+}
+.home-red-box {
+    font-size: 35px;
+  }
+  #bio p {
+    font-size: 25px;
+}
+.food-stamp {
+    height: 259px;
+}
+.jed-whittaker{
+  height: 329px;
+}
+.sex-workers{
+  height: 259px;
+}
+.dark-side{
+  height: 460px;
+}
+.high-rape{
+  height: 438px;
+}
+.lorenzo-wilson{
+  height: 614px;
+}
+.ashland{
+  height: 459px;
+}
+.fbi{
+  height: 385px;
+}
+.diverse{
+  height: 459px;
+}
+.voices{
+  height: 437px;
+}
+}
+@media only screen and (min-width: 1443px) {
+  nav ul a {
+    color: black;
+    font-size: 25px;
+  }
+  nav ul a:hover {
+    color: #E03820;
+    font-size: 25px;
+  }
+  nav i:hover {
+    color: #E03820;
+  }
+  nav .brand-logo {
+    padding-left: 37%;
+}
+nav ul {
+  padding-right: 35%;
+  padding-top: 20px;
+}
+nav .brand-logo {
+  padding-left: 0;
+line-height: 160%;
+display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav {
+  height: 100px;
+}
+
+.icons {
+    margin-left: 0;
+    padding-top: 10px;
+    margin-right: 10%;
+}
+.col{
+  margin-top: 5%;
+}
+.kokayi-fist {
+    height: 864px;
+    margin-top: -20%;
+}
+.grid{
+  grid-template-columns: 30% 30% 30%;
+}
+.food-stamp {
+    height: 219px;
+}
+.jed-whittaker{
+  height: 292px;
+}
+.sex-workers{
+  height: 219px;
+}
+.dark-side{
+  height: 390px;
+}
+.high-rape{
+  height: 390px;
+}
+.lorenzo-wilson{
+  height: 521px;
+}
+.ashland{
+  height: 390px;
+}
+.fbi{
+  height: 343px;
+}
+.diverse{
+  height: 390px;
+}
+.voices{
+  height: 390px;
+}
+.vid-grid{
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 25px;
 }
 }

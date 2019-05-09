@@ -4,6 +4,7 @@ import { Row, Card, CardTitle, Col } from 'react-materialize';
 const News = ({}) => (
   <div id='news'>
     <h3 style={{textAlign:'center', background: '#222222', color:'white', margin: '0 2%', padding: '15px 0'}}>News</h3>
+    <div className='grid'>
     <Row>
       <Col m={6} s={12}>
         <Card horizontal="horizontal" header={<CardTitle />} actions={[<h5>Ashland community kindness project gains national attention</h5>, <small>by Jennevieve Fong <br/> Feb 4, 2019<br/><br/></small>, <a src='https://ktvl.com/news/local/ashland-community-kindness-project-gains-national-attention'>Read Here</a>]}>
@@ -32,6 +33,7 @@ const News = ({}) => (
         </Card>
       </Col>
     </Row>
+  </div>
   </div>
 );
 
