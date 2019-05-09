@@ -561,6 +561,6 @@ nav {
   grid-gap: 25px;
 }
 .FlipClock {
-    width: 25%;
+    width: 25% !important;
 }
 }
