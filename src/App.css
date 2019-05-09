@@ -1,33 +1,374 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #E7E7E7;
+}
+nav {
+  height: 100px;
+  background-color: white;
+}
+nav a, nav .brand-logo{
+  color: #222222;
+}
+nav .brand-logo{
+  font-size: 28px;
+  width: 71%;
+  margin-left: 25px;
+}
+.icons{
+  margin-left: 47px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.kokayi-fist{
+  background-image: url('./media/kokayi-fist.png');
+  height: 200px;
+  background-size: contain;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-content{
+  background-color: #E7E7E7;
+  padding: 0 !important;
+}
+
+.col{
+  margin-top: 20%;
+}
+
+.home-red-box{
+  background: #E03820;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  width: 54%;
+  margin-left: 15px !important;
+}
+
+.card{
+  box-shadow: none;
+}
+
+.card .card-action{
+  border-top: 3px solid #E03820;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.FlipClock{
+  width: 80%;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.top-right-text{
+  position: absolute;
+  top: 135px;
+  left: 15px;
+  background: #212121;
+  color: white;
+  padding: 5px;
+}
+
+.card a{
+  color: white !important;
+  background: #E03820;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+h5{
+  margin-bottom: 25px;
+}
+
+.quick-links{
+  margin-left: 10px;
+}
+
+.kokayi-profile{
+  background: url('./media/kokayi-profile.png');
+  width: 70%;
+  height: 215px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg)
+}
+
+#bio{
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20% 5%;
+  margin: 13% 0;
 }
 
-.App-link {
-  color: #61dafb;
+.food-stamp{
+  background-image: url('./media/food-stamp.jpg');
+  height: 168px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.jed-whittaker{
+  background-image: url('./media/jed-whittaker.jpg');
+  height: 225px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.sex-workers{
+  background-image: url('./media/sex-workers.jpg');
+  height: 168px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.dark-side{
+  background-image: url('./media/dark-side.png');
+  height: 299px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.high-rape{
+  background-image: url('./media/high-rape.png');
+  height: 299px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.lorenzo-wilson{
+  background-image: url('./media/lorenzo-wilson.jpg');
+  height: 399px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.ashland{
+  background-image: url('./media/ashland.jpeg');
+  height: 299px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.fbi{
+  background-image: url('./media/fbi.jpeg');
+  height: 263px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.diverse{
+  background-image: url('./media/diverse.jpeg');
+  height: 299px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.voices{
+  background-image: url('./media/voices.jpeg');
+  height: 299px;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.sidenav{
+  width: 185px;
+}
+
+.fixed-button{
+  position: fixed;
+  bottom: 0;
+}
+
+.FlipClock{
+  margin-left: 15px !important;
+}
+
+@media only screen and (min-width: 360px) {
+  .food-stamp {
+      height: 190px;
   }
-  to {
-    transform: rotate(360deg);
+  .jed-whittaker{
+    height: 254px;
   }
+  .sex-workers{
+    height: 191px;
+  }
+  .dark-side{
+    height: 339px;
+  }
+  .high-rape{
+    height: 339px;
+  }
+  .lorenzo-wilson{
+    height: 452px;
+  }
+  .ashland{
+    height: 339px;
+  }
+  .fbi{
+    height: 298px;
+  }
+  .diverse{
+    height: 339px;
+  }
+  .voices{
+    height: 339px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .food-stamp {
+      height: 199px;
+  }
+  .jed-whittaker{
+    height: 266px;
+  }
+  .sex-workers{
+    height: 199px;
+  }
+  .dark-side{
+    height: 354px;
+  }
+  .high-rape{
+    height: 354px;
+  }
+  .lorenzo-wilson{
+    height: 473px;
+  }
+  .ashland{
+    height: 354px;
+  }
+  .fbi{
+    height: 311px;
+  }
+  .diverse{
+    height: 354px;
+  }
+  .voices{
+    height: 354px;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  #home{
+    height: 100vh;
+  }
+  #bio{
+    height: 100vh;
+  }
+  .col{
+    margin-top: 45%;
+  }
+  .kokayi-profile{
+    margin-bottom: 50px;
+  }
+  .food-stamp {
+      height: 219px;
+  }
+  .jed-whittaker{
+    height: 292px;
+  }
+  .sex-workers{
+    height: 219px;
+  }
+  .dark-side{
+    height: 390px;
+  }
+  .high-rape{
+    height: 390px;
+  }
+  .lorenzo-wilson{
+    height: 521px;
+  }
+  .ashland{
+    height: 390px;
+  }
+  .fbi{
+    height: 343px;
+  }
+  .diverse{
+    height: 390px;
+  }
+  .voices{
+    height: 390px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav .brand-logo {
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 20%;
+  }
+  a.sidenav-trigger i {
+    font-size: 60px;
+    margin-top: 15px;
+}
+.col {
+    margin-top: 20%;
+}
+  .kokayi-fist {
+    height: 498px;
+  }
+  .home-red-box{
+    font-size: 30px;
+    margin-left: 50px !important;
+  }
+  .FlipClock{
+    justify-content: flex-start;
+  }
+  .top-right-text {
+    top: 150px;
+    font-size: 25px;
+    padding: 10px;
+}
+.FlipClock {
+    margin-left: 50px !important;
+}
+.top-right-text {
+    left: 50px;
+}
+.col {
+    margin-top: 10%;
+}
+.card a{
+  padding: 12px;
+  font-size: 20px;
+}
+h5{
+  font-size:2.64rem;
+}
+card .card-action {
+    padding: 30px 24px
+}
+.kokayi-profile {
+    height: 300px;
+    width: 200%;
+}
+#bio{
+  display: flex;
+  flex-direction: row;
+}
+#bio p{
+  font-size: 20px;
+}
+small {
+    font-size: 125%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 25px;
+}
+.row{
+  width: 221%%;
+}
 }

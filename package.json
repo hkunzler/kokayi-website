@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "materialize-css": "^1.0.0",
     "react": "^16.8.6",
+    "react-countdown-now": "^2.1.0",
+    "react-countdown-to-future-date": "0.0.3",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-materialize": "^3.3.0",
+    "react-scripts": "3.0.0",
+    "react-stopwatch": "^2.0.3",
+    "react-timeago": "^4.4.0",
+    "x-react-flipclock": "^0.1.184153"
   },
   "scripts": {
     "start": "react-scripts start",
