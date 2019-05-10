@@ -6,7 +6,7 @@ const Home = ({}) => (
   <div id='home'>
   <Row>
     <Col m={6} s={12}>
-      <Card style={{textAlign: 'center'}} header={<CardTitle />} actions={[<h5>Quick Links</h5>, <div className='quick-links'><a href='#'>Bio</a> <a href='#'>Articles</a> <a href='#'>Videos</a></div>]}>
+      <Card style={{textAlign: 'center'}} header={<CardTitle />} actions={[<h5>Quick Links</h5>, <div className='quick-links'><a href='#bio'>Bio</a> <a href='#articles'>Articles</a> <a href='#videos'>Videos</a> <a href='#news'>News</a> </div>]}>
       <div className='home-red-box'>My Latest Offer For</div>
       <FlipClock
     type = "countdown"

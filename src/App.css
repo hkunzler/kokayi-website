@@ -19,7 +19,7 @@ nav .brand-logo{
   font-size: 28px;
   width: 71%;
   margin-left: 25px;
-  z-index: -1;
+  z-index: 1;
 }
 .icons{
   margin-left: 47px;
@@ -108,9 +108,10 @@ h5{
   margin: 13% 0;
 }
 
+
 .food-stamp{
   background-image: url('./media/food-stamp.jpg');
-  height: 168px;
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
@@ -118,63 +119,63 @@ h5{
 
 .jed-whittaker{
   background-image: url('./media/jed-whittaker.jpg');
-  height: 225px;
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .sex-workers{
   background-image: url('./media/sex-workers.jpg');
-  height: 168px;
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .dark-side{
-  background-image: url('./media/dark-side.png');
-  height: 299px;
+  background-image: url('./media/dark-side.jpg');
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .high-rape{
-  background-image: url('./media/high-rape.png');
-  height: 299px;
+  background-image: url('./media/high-rape.jpg');
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .lorenzo-wilson{
   background-image: url('./media/lorenzo-wilson.jpg');
-  height: 399px;
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 
 .ashland{
-  background-image: url('./media/ashland.jpeg');
-  height: 299px;
+  background-image: url('./media/ashland.jpg');
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .fbi{
-  background-image: url('./media/fbi.jpeg');
-  height: 263px;
+  background-image: url('./media/fbi.jpg');
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .diverse{
-  background-image: url('./media/diverse.jpeg');
-  height: 299px;
+  background-image: url('./media/diverse.jpg');
+  height: 298px;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
 .voices{
-  background-image: url('./media/voices.jpeg');
+  background-image: url('./media/voices.jpg');
   height: 299px;
   background-size: contain;
   position: relative;
@@ -195,66 +196,12 @@ h5{
 }
 
 @media only screen and (min-width: 360px) {
-  .food-stamp {
-      height: 190px;
-  }
-  .jed-whittaker{
-    height: 254px;
-  }
-  .sex-workers{
-    height: 191px;
-  }
-  .dark-side{
-    height: 339px;
-  }
-  .high-rape{
-    height: 339px;
-  }
-  .lorenzo-wilson{
-    height: 452px;
-  }
-  .ashland{
-    height: 339px;
-  }
-  .fbi{
-    height: 298px;
-  }
-  .diverse{
-    height: 339px;
-  }
-  .voices{
-    height: 339px;
+  .food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
+    height: 337px;
   }
 }
 @media only screen and (min-width: 375px) {
-  .food-stamp {
-      height: 199px;
-  }
-  .jed-whittaker{
-    height: 266px;
-  }
-  .sex-workers{
-    height: 199px;
-  }
-  .dark-side{
-    height: 354px;
-  }
-  .high-rape{
-    height: 354px;
-  }
-  .lorenzo-wilson{
-    height: 473px;
-  }
-  .ashland{
-    height: 354px;
-  }
-  .fbi{
-    height: 311px;
-  }
-  .diverse{
-    height: 354px;
-  }
-  .voices{
+  .food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
     height: 354px;
   }
 }
@@ -272,34 +219,7 @@ h5{
   .kokayi-profile{
     margin-bottom: 50px;
   }
-  .food-stamp {
-      height: 219px;
-  }
-  .jed-whittaker{
-    height: 292px;
-  }
-  .sex-workers{
-    height: 219px;
-  }
-  .dark-side{
-    height: 390px;
-  }
-  .high-rape{
-    height: 390px;
-  }
-  .lorenzo-wilson{
-    height: 521px;
-  }
-  .ashland{
-    height: 390px;
-  }
-  .fbi{
-    height: 343px;
-  }
-  .diverse{
-    height: 390px;
-  }
-  .voices{
+  .food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
     height: 390px;
   }
 }
@@ -370,38 +290,11 @@ small {
 }
 .grid{
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 45% 45%;
   grid-gap: 25px;
 }
-.food-stamp {
-    height: 205px;
-}
-.jed-whittaker{
-  height: 253px;
-}
-.sex-workers{
-  height: 205px;
-}
-.dark-side{
-  height: 363px;
-}
-.high-rape{
-  height: 338px;
-}
-.lorenzo-wilson{
-  height: 484px;
-}
-.ashland{
-  height: 363px;
-}
-.fbi{
-  height: 297px;
-}
-.diverse{
-  height: 363px;
-}
-.voices{
-  height: 338px;
+.food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
+  height: 325px;
 }
 }
 
@@ -414,7 +307,7 @@ small {
     padding-left: 37%;
 }
 nav ul {
-  padding-right: 35%;
+  /* padding-right: 35%; */
   padding-top: 71px;
 }
 nav .brand-logo {
@@ -450,35 +343,8 @@ nav {
   #bio p {
     font-size: 25px;
 }
-.food-stamp {
-    height: 259px;
-}
-.jed-whittaker{
-  height: 329px;
-}
-.sex-workers{
-  height: 259px;
-}
-.dark-side{
-  height: 460px;
-}
-.high-rape{
-  height: 438px;
-}
-.lorenzo-wilson{
-  height: 614px;
-}
-.ashland{
-  height: 459px;
-}
-.fbi{
-  height: 385px;
-}
-.diverse{
-  height: 459px;
-}
-.voices{
-  height: 437px;
+.food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
+  height: 414px;
 }
 }
 @media only screen and (min-width: 1443px) {
@@ -497,15 +363,17 @@ nav {
     padding-left: 37%;
 }
 nav ul {
-  padding-right: 35%;
+  /* padding-right: 35%; */
   padding-top: 20px;
 }
 nav .brand-logo {
   padding-left: 0;
-line-height: 160%;
-display: flex;
-    width: 100%;
-    justify-content: space-between;
+line-height: 68%;
+/* display: flex; */
+    /* width: 100%; */
+    /* justify-content: space-between; */
+    /* flex-direction: column;
+    align-items: center; */
 }
 nav {
   height: 100px;
@@ -526,42 +394,24 @@ nav {
 .grid{
   grid-template-columns: 30% 30% 30%;
 }
-.food-stamp {
-    height: 219px;
-}
-.jed-whittaker{
-  height: 292px;
-}
-.sex-workers{
-  height: 219px;
-}
-.dark-side{
-  height: 390px;
-}
-.high-rape{
-  height: 390px;
-}
-.lorenzo-wilson{
-  height: 521px;
-}
-.ashland{
-  height: 390px;
-}
-.fbi{
-  height: 343px;
-}
-.diverse{
-  height: 390px;
-}
-.voices{
-  height: 390px;
+.food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
+  height: 386px;
 }
 .vid-grid{
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 45% 45%;
   grid-gap: 25px;
 }
 .FlipClock {
     width: 25% !important;
 }
+element.style {
+    margin: 10% 0px;
+}
+}
+
+@media only screen and (min-width:   2914px) {
+  .kokayi-fist {
+      height: 1744px;
+  }
 }
