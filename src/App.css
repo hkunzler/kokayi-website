@@ -8,6 +8,10 @@ html {
 body{
   background-color: #E7E7E7;
 }
+#articles a:hover{
+  background: grey;
+  transition: .5s;
+}
 a{
   color: black;
 }
@@ -419,7 +423,7 @@ nav {
   grid-template-columns: 30% 30% 30%;
 }
 .food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
-  height: 386px;
+  height: 394px;
 }
 .vid-grid{
   display: grid;

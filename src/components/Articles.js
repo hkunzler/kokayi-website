@@ -72,6 +72,7 @@ const Articles = ({}) => (<div id='articles'>
       </Col>
     </Row>
   </a>
+  <a target='_blank' href='https://www.anchoragepress.com/columnists/solutions-anchorage-tackling-anchorage-s-dark-side/article_76b49e20-5ae5-11e8-a23d-2f1eaaa47f6b.html'>
     <Row>
       <Col m={6} s={12}>
         <Card horizontal="horizontal" header={<CardTitle />} actions={[
@@ -85,6 +86,7 @@ const Articles = ({}) => (<div id='articles'>
         </Card>
       </Col>
     </Row>
+  </a>
     <a target='_blank' href='https://www.anchoragepress.com/columnists/reasons-for-the-high-rate-of-rape-in-alaska/article_564f37fa-4e4f-11e8-b893-47cba59bd374.html'>
     <Row>
       <Col m={6} s={12}>
