@@ -218,9 +218,11 @@ h5{
 }
 @media only screen and (min-width: 0) {
   .tour{
+    margin-top: 25px;
     text-align: left;
     margin-left: 14px;
     font-size: 5vw;
+    font-weight: 900;
   }
 }
 @media only screen and (min-width: 360px) {
