@@ -8,6 +8,9 @@ html {
 body{
   background-color: #E7E7E7;
 }
+a{
+  color: black;
+}
 nav {
   height: 100px;
   background-color: white;
@@ -73,6 +76,11 @@ nav .brand-logo{
   background: #212121;
   color: white;
   padding: 5px;
+  transition: .5s;
+}
+.top-right-text:hover{
+    background: #E03820;
+    transition: .5s;
 }
 
 .card a{

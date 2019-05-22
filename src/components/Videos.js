@@ -2,7 +2,7 @@ import React from 'react';
 import { video } from 'react-materialize';
 
 const Videos = ({}) => (
-  <div id='videos' style={{background: 'white', padding: '50px 0', margin: '50% 0'}}>
+  <div id='videos'>
     <h3 style={{textAlign:'center', background: '#222222', color:'white', margin: '0 2%', padding: '15px 0'}}>Videos</h3>
     <div className='vid-grid' style={{margin: '25px 2%'}}>
 <div>

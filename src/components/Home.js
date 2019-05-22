@@ -10,7 +10,7 @@ const Home = ({}) => (
       <div className='home-red-box'>Kokayi On Tour</div>
       <div className='tour'>06 . 01 . 2019 </div>
       <div className='kokayi-fist'></div>
-      <div className='top-right-text'>Reach Out</div>
+      <div className='top-right-text'><a target='_blank' style={{background:'none'}} href='https://www.facebook.com/Kokayi137'>Reach Out</a></div>
       </Card>
     </Col>
   </Row>
