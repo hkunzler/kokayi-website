@@ -10,6 +10,7 @@
     "react-dom": "^16.8.6",
     "react-materialize": "^3.3.0",
     "react-scripts": "3.0.0",
+    "react-scroll-up-button": "^1.6.4",
     "react-stopwatch": "^2.0.3",
     "react-timeago": "^4.4.0",
     "x-react-flipclock": "^0.1.184153"
