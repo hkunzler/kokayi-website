@@ -9,7 +9,9 @@ import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"
 
 const App = ({}) => (
   <div>
-    <ScrollUpButton/>
+    <ScrollUpButton
+      style={{zIndex: 1}}
+    />
     <Navbar/>
     <Home/>
     <Bio/>
