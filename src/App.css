@@ -95,7 +95,17 @@ h5{
 }
 
 .quick-links{
-  margin-left: 10px;
+  transition: .5s;
+  display: grid;
+      grid-template-columns: auto auto;
+}
+
+.quick-links a{
+  margin-bottom: 10px;
+}
+.quick-links a:hover{
+  background: #a41f0c;
+  transition: .5s;
 }
 
 .kokayi-profile{
