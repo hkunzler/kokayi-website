@@ -10,9 +10,9 @@ const App = ({}) => (
     <Navbar/>
     <Home/>
     <Bio/>
-    <Articles/>
     <Videos/>
     <News/>
+    <Articles/>
   </div>
 );
 
