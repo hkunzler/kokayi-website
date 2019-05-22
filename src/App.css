@@ -194,7 +194,13 @@ h5{
 .FlipClock{
   margin-left: 15px !important;
 }
-
+@media only screen and (min-width: 0) {
+  .tour{
+    text-align: left;
+    margin-left: 14px;
+    font-size: 5vw;
+  }
+}
 @media only screen and (min-width: 360px) {
   .food-stamp,.jed-whittaker, .sex-workers, .dark-side, .high-rape, .lorenzo-wilson, .ashland, .fbi, .diverse, .voices{
     height: 337px;
@@ -222,6 +228,9 @@ h5{
 }
 
 @media only screen and (min-width: 768px) {
+  .tour{
+    margin-left: 50px;
+  }
   .row .col.m6 {
     width: 100%;
   }
@@ -404,6 +413,9 @@ nav {
 }
 element.style {
     margin: 10% 0px;
+}
+.top-right-text{
+  margin-top: 20px;
 }
 }
 
