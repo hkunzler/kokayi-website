@@ -327,6 +327,9 @@ small {
 }
 
 @media only screen and (min-width: 1024px) {
+  nav .brand-logo{
+    width: 50%;
+  }
   nav ul a {
     color: black;
     font-size: 25px;
