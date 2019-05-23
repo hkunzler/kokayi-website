@@ -6,13 +6,10 @@ import Articles from './components/Articles'
 import Videos from './components/Videos'
 import News from './components/News'
 import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"
-
 const App = ({}) => (
   <div>
-    <ScrollUpButton
-      style={{zIndex: 1}}
-    />
-    <Navbar/>
+    <ScrollUpButton/>
+      <Navbar/>
     <Home/>
     <Bio/>
     <Videos/>
