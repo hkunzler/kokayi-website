@@ -11,6 +11,7 @@ const Home = ({}) => (
       <div className='tour'>06 . 01 . 2019 </div>
       <div className='kokayi-fist'></div>
       <div className='top-right-text'><a target='_blank' style={{background:'none'}} href='https://www.facebook.com/Kokayi137'>Reach Out</a></div>
+      <div style={{marginTop:'11%'}}className='top-right-text'><a target='_blank' style={{background:'none'}} href='https://www.gofundme.com/amplify-the-voice-of-poc-in-the-rogue-valley/donate'>Donate</a></div>
       </Card>
     </Col>
   </Row>
